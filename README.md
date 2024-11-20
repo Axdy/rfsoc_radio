@@ -12,7 +12,7 @@
 </table>
 
 # RFSoC Radio Transceiver
-This repository is compatible with [PYNQ images v2.7](https://github.com/Xilinx/PYNQ/releases) and higher for the following RFSoC development boards:
+This repository is compatible with [PYNQ images v3.0.1](https://github.com/Xilinx/PYNQ/releases) and higher for the following RFSoC development boards:
 * [ZCU208](https://www.xilinx.com/products/boards-and-kits/zcu208.html),
 * [ZCU216](https://www.xilinx.com/products/boards-and-kits/zcu216.html),
 * [ZCU111](https://www.xilinx.com/products/boards-and-kits/zcu111.html),
@@ -28,7 +28,7 @@ This repository contains a BPSK & QPSK transceiver radio design for RFSoC platfo
 
 ## Quick Start
 Follow the instructions below to install the radio demonstrator on your development board. **You will need to give your board access to the internet**.
-* Power on your RFSoC development board with an SD Card containing a fresh PYNQ v2.7 image or higher.
+* Power on your RFSoC development board with an SD Card containing a fresh PYNQ v3.0.1 image or higher.
 * Navigate to Jupyter Labs by opening a browser (preferably Chrome) and connecting to `http://<board_ip_address>:9090/lab`.
 * We need to open a terminal in Jupyter Lab. Firstly, open a launcher window as shown in the figure below:
 
@@ -45,7 +45,7 @@ Follow the instructions below to install the radio demonstrator on your developm
 * Now simply install the radio demonstrator through PIP by executing the following command in the terminal:
 
 ```sh
-pip3 install https://github.com/strath-sdr/rfsoc_radio/releases/download/v0.3.4/rfsoc_radio.tar.gz
+pip3 install https://github.com/axdy/rfsoc_radio/releases/download/v0.4/rfsoc_radio.tar.gz
 python -m rfsoc_radio install
 ```
 
@@ -53,7 +53,7 @@ Once installation has complete, you will find the radio demonstrator notebooks l
 
 ## Using the Project Files
 The following software is required to use the project files in this repository.
-- Vivado Design Suite 2020.2
+- Vivado Design Suite 2022.1
 - System Generator for DSP
 - MATLAB R2020a
 
